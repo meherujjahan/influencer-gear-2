@@ -17,8 +17,8 @@ body {
 }
 
 /* header-section */
-.container {
-  margin: 20px 50px;
+.header {
+  margin: 40px 100px;
 }
 .header-section {
   display: flex;
@@ -51,9 +51,10 @@ body {
 }
 /* banner */
 .banner {
-  padding-top: 40px;
+  margin: 10px 0px 10px 50px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 .banner-text {
   display: flex;
@@ -82,22 +83,15 @@ body {
   line-height: 24px;
   color: #ffffff;
 }
-.fa-arrow-right {
-  width: 20px;
-  height: 20px;
-  display: flex;
-  align-items: center;
+.banner-text i {
+  width: 24px;
+  height: 24px;
 }
 .banner-img {
-  background-image: url(/images/Circle\ design.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: auto;
   display: flex;
-  justify-content: center;
   align-items: center;
-}
-.banner-img img {
-  width: 400px;
-  height: 400px;
+  justify-items: center;
+  justify-content: center;
+  width: 441px;
+  height: 414px;
 }

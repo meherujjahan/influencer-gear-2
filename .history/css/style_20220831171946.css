@@ -51,7 +51,7 @@ body {
 }
 /* banner */
 .banner {
-  padding-top: 40px;
+  /* margin-top: 40px; */
   display: grid;
   grid-template-columns: 1fr 1fr;
 }

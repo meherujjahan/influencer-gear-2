@@ -17,8 +17,8 @@ body {
 }
 
 /* header-section */
-.container {
-  margin: 20px 50px;
+.header {
+  margin: 40px 100px;
 }
 .header-section {
   display: flex;
@@ -51,14 +51,13 @@ body {
 }
 /* banner */
 .banner {
-  padding-top: 40px;
+  margin: 10px 10px 10px 50px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 .banner-text {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 .banner-text h1 {
   font-weight: 700;
@@ -66,38 +65,7 @@ body {
   line-height: 70px;
   font-style: normal;
 }
-.banner-text button {
-  border: none;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 10px 24px;
-  gap: 8px;
-  background: #e02c6d;
-  border-radius: 41px;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 24px;
-  color: #ffffff;
-}
-.fa-arrow-right {
-  width: 20px;
-  height: 20px;
-  display: flex;
-  align-items: center;
-}
 .banner-img {
-  background-image: url(/images/Circle\ design.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.banner-img img {
-  width: 400px;
-  height: 400px;
+  width: 441px;
+  height: 414px;
 }
