@@ -129,8 +129,7 @@ body {
 }
 /* cards */
 .card-tile {
-  display: flex;
-  justify-content: center;
+  margin: auto;
   padding: 30px;
 }
 .cards {
@@ -158,24 +157,4 @@ body {
   gap: 20px;
   justify-content: flex-start;
   align-items: center;
-}
-.see-more-btn {
-  margin: 20px;
-  display: flex;
-  justify-content: end;
-}
-.see-more-btn button {
-  border: none;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 10px 24px;
-  gap: 8px;
-  color: var(--theme-color);
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 24px;
-  background-color: #ffffff;
 }

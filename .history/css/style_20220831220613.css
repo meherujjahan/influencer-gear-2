@@ -160,7 +160,6 @@ body {
   align-items: center;
 }
 .see-more-btn {
-  margin: 20px;
   display: flex;
   justify-content: end;
 }
@@ -172,9 +171,10 @@ body {
   padding: 10px 24px;
   gap: 8px;
   color: var(--theme-color);
+  border-radius: 41px;
   font-family: "Poppins";
   font-style: normal;
-  font-weight: bold;
+  font-weight: 900;
   font-size: 20px;
   line-height: 24px;
   background-color: #ffffff;
