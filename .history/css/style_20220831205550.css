@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
 ::after,
 ::before {
   margin: 0;
@@ -7,7 +6,6 @@
 }
 :root {
   --theme-color: #e02c6d;
-  --theme-font-family: "Poppins", sans-serif;
 }
 
 ::selection {
@@ -27,7 +25,6 @@ body {
   justify-content: space-between;
 }
 .header-title h3 {
-  font-family: var(--theme-font);
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -115,12 +112,9 @@ body {
   padding: 100px 0px;
 }
 .logos {
-  padding: 10px;
-  background-color: #aaaaaa00;
   width: max-content;
   margin: auto;
-  border: 1px solid rgba(172, 166, 166, 0.345);
-  border-radius: 10px;
+  border: 1px solid gray;
 }
 .logos img {
   width: 66px;

@@ -7,7 +7,7 @@
 }
 :root {
   --theme-color: #e02c6d;
-  --theme-font-family: "Poppins", sans-serif;
+  --theme-font: "Poppins", sans-serif;
 }
 
 ::selection {

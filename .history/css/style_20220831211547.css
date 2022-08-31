@@ -7,7 +7,7 @@
 }
 :root {
   --theme-color: #e02c6d;
-  --theme-font-family: "Poppins", sans-serif;
+  --theme-font: "Poppins", sans-serif;
 }
 
 ::selection {
@@ -27,7 +27,6 @@ body {
   justify-content: space-between;
 }
 .header-title h3 {
-  font-family: var(--theme-font);
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
