@@ -76,14 +76,12 @@ body {
   line-height: 30px;
   font-style: normal;
 }
-.banner-text button,
-.feature-btn {
-  cursor: pointer;
+.banner-text button {
   border: none;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 10px 25px;
+  padding: 10px 24px;
   gap: 8px;
   background: #e02c6d;
   border-radius: 41px;
@@ -138,35 +136,30 @@ body {
   padding: 30px;
 }
 .cards {
+  line-height: 0px;
   margin: 0px 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
 }
 .card {
+  line-height: 0px;
   border-radius: 5px;
-  padding: 15px;
+  padding: 10px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
-.card h1 {
-  line-height: 15px;
-  font-size: 28px;
-  font-weight: 700;
-}
 .card p {
-  line-height: 10px;
-  color: rgba(128, 128, 128, 0.865);
-  font-weight: 500;
+  line-height: 0px;
+  color: rgba(128, 128, 128, 0.808);
 }
 .fa-star {
-  line-height: 20px;
   color: #fb8200;
-  margin-right: 10px;
 }
 .star-icon {
   display: flex;
-  align-items: center;
   gap: 20px;
+  justify-content: flex-start;
+  align-items: center;
 }
 .see-more-btn {
   margin: 20px;
@@ -174,7 +167,6 @@ body {
   justify-content: end;
 }
 .see-more-btn button {
-  cursor: pointer;
   border: none;
   display: flex;
   flex-direction: row;
@@ -186,30 +178,6 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
-  line-height: 20px;
+  line-height: 0px;
   background-color: #ffffff;
-}
-/* feature section */
-.feature-section {
-  margin: 80px 80px 40px 80px;
-  display: flex;
-  gap: 35px;
-  justify-content: space-evenly;
-}
-.feature-text {
-  display: flex;
-  align-items: center;
-}
-.feature-btn {
-  border-radius: 0px !important;
-}
-.feature-text h2 {
-  font-size: 29px;
-  font-weight: 800;
-  line-height: 10px;
-}
-.feature-text p {
-  color: rgba(115, 114, 114, 0.678);
-  line-height: 20px;
-  font-weight: 600;
 }

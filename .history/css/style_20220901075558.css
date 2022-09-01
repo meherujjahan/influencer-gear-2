@@ -83,7 +83,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 10px 25px;
+  padding: 10px 24px;
   gap: 8px;
   background: #e02c6d;
   border-radius: 41px;

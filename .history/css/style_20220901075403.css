@@ -83,7 +83,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 10px 25px;
+  padding: 10px 24px;
   gap: 8px;
   background: #e02c6d;
   border-radius: 41px;
@@ -138,6 +138,7 @@ body {
   padding: 30px;
 }
 .cards {
+  line-height: 10px;
   margin: 0px 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -153,7 +154,8 @@ body {
   font-size: 28px;
   font-weight: 700;
 }
-.card p {
+.card p,
+.feature-text p {
   line-height: 10px;
   color: rgba(128, 128, 128, 0.865);
   font-weight: 500;
@@ -207,9 +209,4 @@ body {
   font-size: 29px;
   font-weight: 800;
   line-height: 10px;
-}
-.feature-text p {
-  color: rgba(115, 114, 114, 0.678);
-  line-height: 20px;
-  font-weight: 600;
 }
